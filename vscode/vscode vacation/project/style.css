@@ -13,4 +13,55 @@
     background-size: cover;
     padding: 10px 10%;
     overflow: hidden;
+    background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url("images/collage.jpg");
 }
+nav{
+    padding: 10px 0;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;  
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+
+.title {
+    font-size: 4.25em;
+}
+.search-bar {
+    width: 100%;
+    padding: 0.62em 1em;
+}
+.search-results {
+    padding: 0;
+}
+  .item {
+        list-style-type: none;
+ }
+    
+ 
+ .product {
+   padding: 2.62em;
+       }
+            .heading {
+                font-size: 2.62em;
+            }
+            .price {
+                font-size: 1.62em;
+                color: red;
+            }
+            .description {
+                font-style: italic;
+            }
+            .link {
+                display: block;
+                padding: 1em;
+                text-align: center;
+                color: white;
+                background-color: black;
+            }
